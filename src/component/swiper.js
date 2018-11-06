@@ -14,7 +14,7 @@ class SwiperTest extends Component {
 	}
 	componentDidMount() {
 var mySwiper = new Swiper ('.swiper-container', {
-			    direction: 'vertical',
+//			    direction: 'vertical',
 			    loop: true, 
 			    // 如果需要分页器
 			    pagination: {
@@ -42,9 +42,9 @@ var mySwiper = new Swiper ('.swiper-container', {
 			<div>
 				<div className="swiper-container">
 				    <div className="swiper-wrapper">
-				        <div className="swiper-slide">Slide 1</div>
-				        <div className="swiper-slide">Slide 2</div>
-				        <div className="swiper-slide">Slide 3</div>
+				        <div className="swiper-slide"><img src={require('../img/1.jpg')}/></div>
+				        <div className="swiper-slide"><img src={require('../img/2.jpg')}/></div>
+				        <div className="swiper-slide"><img src={require('../img/4.jpg')}/></div>
 				    </div>
 				    <div className="swiper-pagination"></div>
 				    <div className="swiper-button-prev"></div>

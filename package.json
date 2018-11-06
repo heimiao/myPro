@@ -4,12 +4,14 @@
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
+    "react-bmap": "^1.0.74",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
     "swiper": "^4.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "re_start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
